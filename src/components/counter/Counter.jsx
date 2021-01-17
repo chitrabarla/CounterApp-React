@@ -18,7 +18,7 @@ class Counter extends Component{
     render() { 
         return(
             <div className="counter">
-
+                {/*Sample Comments for git */}
             <CounterButton by={1} incrementMethod={this.increment} decrementMethod={this.decrement}/>
             <div><button onClick={()=>{this.increment(2)}}>+2</button>
             <button onClick={()=>{this.decrement(2)}}>-2</button></div>
